@@ -17,7 +17,7 @@
 <header>
     <%@include file="_header.jsp"%>
 </header>
-
+<h1> Aqui va la lista de clientes</h1>
 <footer>
     <%@include file="_footer.jsp"%>
 </footer>

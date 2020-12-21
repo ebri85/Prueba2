@@ -67,7 +67,7 @@
             </fieldset>
 
         </fieldset>
-        <input type="button" id="boton">
+        <input type="button" id="boton" value="Registrar">
     </form>
 </div>
 <header>
