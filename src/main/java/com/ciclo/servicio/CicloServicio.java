@@ -30,7 +30,7 @@ public class CicloServicio implements ICicloServicio {
     public Response Mensaje(@Context HttpHeaders headers) {
         String mensaje =
                 "<h1>Este es el servicio Restful de Ciclo_Bikers</h1>\n" +
-                        "<a href='http://localhost:8080/Ciclo_Bikers-1/ciclo/clientes'>Obtiene Todas los clientes</a>";
+                        "<a href='http://localhost:8080/Ciclo-1/ciclo/clientes'>Obtiene Todas los clientes</a>";
         return Response.status(Response.Status.OK).entity(mensaje).build();
     }
 

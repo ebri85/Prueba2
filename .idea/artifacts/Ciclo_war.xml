@@ -7,8 +7,6 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="Ciclo-1.war">
-      <element id="artifact" artifact-name="Ciclo:war exploded" />
-    </root>
+    <root id="archive" name="Ciclo-1.war" />
   </artifact>
 </component>

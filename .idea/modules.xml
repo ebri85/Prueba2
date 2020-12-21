@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CicloWeb/CicloWeb.iml" filepath="$PROJECT_DIR$/CicloWeb/CicloWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ciclo_Bikers.iml" filepath="$PROJECT_DIR$/Ciclo_Bikers.iml" />
     </modules>
   </component>

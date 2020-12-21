@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CicloWeb:war">
+    <output-path>$PROJECT_DIR$/CicloWeb/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CicloWeb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CicloWeb-1.war">
+      <element id="artifact" artifact-name="CicloWeb:war exploded" />
+    </root>
+  </artifact>
+</component>

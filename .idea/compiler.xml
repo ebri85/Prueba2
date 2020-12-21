@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Ciclo_Bikers" />
+        <module name="CicloWeb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Ciclo_Bikers" target="1.8" />
+      <module name="CicloWeb" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100%;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    display: inline-block;
+}
+
+.inicio .mensaje {
+    display: block;
+    text-align: center;
+}
+
+.header {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: white;
+    text-align: left;
+}
+
+.header h1 {
+    font-size: 50px;
+
+}
+
+nav {
+
+    overflow: hidden;
+    background-color: darkblue;
+}
+#datosBici{
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.inicio {
+    width: 100%;
+}
+
+.container {
+
+    margin-left: 33%;
+    margin-right: 33%;
+    padding: 5px;
+    text-align: center;
+    background: cornflowerblue;
+}
+
+form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: lightskyblue;
+    color: black;
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+
+    color: black;
+    border-color: brown;
+    border-radius: 5px;
+    text-align: left;
+
+}
+
+fieldset {
+
+    margin-left: 20%;
+    margin-right: 20%;
+    align-content: center;
+    color: white;
+    font-style: oblique;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+label {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+.rows {
+    overflow: auto;
+}
+
+[class*="col-"] {
+    width: 33%;
+    float: left;
+    display: inline;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.atributos {
+    margin-right: 33%;
+    margin-left: 33%;
+    text-align: center;
+    background: deepskyblue;
+}
+
+.imagen {
+    text-align: center;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 33%;
+}
