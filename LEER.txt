@@ -1,0 +1,4 @@
+Buenas
+
+El sistema, levanta primero arrancando el Rest (GlassFish 5.0.1), luego ejecutando el web (GlassFish 5.0.12)
+el web utiliza el Glassfish de forma remota invocando la instancia que levanta el Rest

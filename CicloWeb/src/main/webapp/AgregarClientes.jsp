@@ -44,7 +44,7 @@
             <legend>Ingrese datos de Bici</legend>
             <fieldset>
 
-                <label for="serie">Nombre Completo: </label>
+                <label for="serie">Numero de Serie: </label>
                 <input class="cliente" id="serie" type="text" name="serie" maxlength="100">
                 <br><br>
 
@@ -67,7 +67,7 @@
             </fieldset>
 
         </fieldset>
-
+        <input type="button" id="boton">
     </form>
 </div>
 <header>

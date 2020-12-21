@@ -43,10 +43,11 @@
         <fieldset id="datosBici">
             <legend>Ingrese datos de Bici</legend>
             <fieldset>
-                <label for="serie">Nombre Completo: </label>
+
+                <label for="serie">Numero de Serie: </label>
                 <input class="cliente" id="serie" type="text" name="serie" maxlength="100">
                 <br><br>
-                
+
                 <legend>Tipo Bici</legend>
                 <select class="cliente" name="bicicleta" id="tipoBici">
                     <optgroup>
